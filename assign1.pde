@@ -43,7 +43,7 @@ void draw() {
   stroke(255,255,0);//set Stroke color
   strokeWeight(5);//set Stroke Weight to 5
   fill(253,184,19);//set Sun color
-  circle(590,50,120);//Draw Sun
+  ellipse(590,50,120,120);//Draw Sun
   
   //Draw hog
   image(hogImg,280,80);
