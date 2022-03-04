@@ -4,12 +4,12 @@ int soldierX,soldierY,robotX,robotY,laserX,laserLen; //Declare coordinate vars
 void setup() {
 	size(640, 480, P2D);
   //Load Images
-  backImg = loadImage("/img/bg.jpg");//Background
-  soilImg = loadImage("/img/soil.png");//soil
-  heartImg = loadImage("/img/life.png");//heart
-  hogImg = loadImage("/img/groundhog.png");//hog
-  soldierImg = loadImage("/img/soldier.png");//soldier
-  robotImg =loadImage("/img/robot.png");//robot
+  backImg = loadImage("img/bg.jpg");//Background
+  soilImg = loadImage("img/soil.png");//soil
+  heartImg = loadImage("img/life.png");//heart
+  hogImg = loadImage("img/groundhog.png");//hog
+  soldierImg = loadImage("img/soldier.png");//soldier
+  robotImg =loadImage("img/robot.png");//robot
   
   //Set init coordinates
   soldierX=0;
