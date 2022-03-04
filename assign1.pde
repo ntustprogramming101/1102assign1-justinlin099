@@ -34,10 +34,10 @@ void draw() {
   rect(0,160,640,-15);//grass
   
   //Draw Heart
-  for(int i=0;i<3;i++)
+  /*for(int i=0;i<3;i++)
   {
     image(heartImg,10+i*70,10);
-  }
+  }*/
   
   //Draw Sun
   stroke(255,255,0);//set Stroke color
